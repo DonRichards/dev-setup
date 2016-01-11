@@ -27,5 +27,12 @@ npm install -g coffee-script
 npm install -g grunt-cli
 npm install -g jshint
 npm install -g less
+npm install -g node-gyp
 
-#gem install jekyll
+gem install -n /usr/local/bin sass scss_lint hologram susy bundler jekyll
+
+# House Keeping
+rbenv rehash
+npm update -g npm
+gem update --system
+update
