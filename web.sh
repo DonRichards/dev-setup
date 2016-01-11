@@ -15,10 +15,19 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# Corrects Possible File System Permissions Errors
+sudo chown -R `whoami` /usr/local
+
 # Make sure we’re using the latest Homebrew.
 brew update
 
 brew install node
+
+# Final Desktop Apps
+brew cask install bittorrent-sync
+brew cask install github-desktop
+brew cask install vlc
+brew cask install atom
 
 # Remove outdated versions from the cellar.
 brew cleanup
@@ -27,6 +36,7 @@ npm install -g coffee-script
 npm install -g grunt-cli
 npm install -g jshint
 npm install -g less
+npm install -g yo
 npm install -g node-gyp
 
 gem install -n /usr/local/bin sass scss_lint hologram susy bundler jekyll
