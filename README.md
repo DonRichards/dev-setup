@@ -1880,23 +1880,13 @@ Bug reports, suggestions, and pull requests are [welcome](https://github.com/don
 
 See the [Credits Page](https://github.com/donrichards/dev-setup/blob/master/CREDITS.md).
 
-## Contact Info
-
-Feel free to contact me to discuss any issues, questions, or comments.
-
-* Email: [donne.martin@gmail.com](mailto:donne.martin@gmail.com)
-* Twitter: [@donne_martin](https://twitter.com/donne_martin)
-* GitHub: [donrichards](https://github.com/donrichards)
-* LinkedIn: [donrichards](https://www.linkedin.com/in/donrichards)
-* Website: [donrichards.com](http://donrichards.com)
-
 ### License
 
-This repository contains a variety of content; some developed by Donne Martin, and some from third-parties.  The third-party content is distributed under the license provided by those parties.
+This repository contains a variety of content; some developed by Don, and some from third-parties.  The third-party content is distributed under the license provided by those parties.
 
-The content developed by Donne Martin is distributed under the following license:
+The content developed by Don is distributed under the following license:
 
-    Copyright 2015 Donne Martin
+    Copyright 2015 Don
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

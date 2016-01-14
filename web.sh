@@ -20,14 +20,7 @@ sudo chown -R `whoami` /usr/local
 
 # Make sure we’re using the latest Homebrew.
 brew update
-
 brew install node
-
-# Final Desktop Apps
-brew cask install bittorrent-sync
-brew cask install github-desktop
-brew cask install vlc
-brew cask install atom
 
 # Remove outdated versions from the cellar.
 brew cleanup
