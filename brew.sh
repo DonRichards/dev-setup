@@ -48,8 +48,8 @@ brew install wget --with-iri
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
+#brew install ringojs
+#brew install narwhal
 
 # Install Python
 brew install python
@@ -112,13 +112,13 @@ brew link libxslt --force
 brew install caskroom/cask/brew-cask
 
 # Core casks
-brew cask install --appdir="/Applications" alfred
+#brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
 
 # Development tool casks
-brew cask install --appdir="/Applications" sublime-text3
+#brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
@@ -128,7 +128,7 @@ brew cask install --appdir="/Applications" macdown
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
-#brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
@@ -140,11 +140,11 @@ brew cask install --appdir="/Applications" vlc
 #brew cask install --appdir="/Applications" mactex
 
 # Link cask apps to Alfred
-brew cask alfred link
+#brew cask alfred link
 
 # Install Docker, which requires virtualbox
-brew install docker
-brew install boot2docker
+#brew install docker
+#brew install boot2docker
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
