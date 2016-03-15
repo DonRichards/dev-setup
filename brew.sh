@@ -140,7 +140,7 @@ brew cask install --appdir="/Applications" spectacle
 brew cask install --appdir="/Applications" cheatsheet
 brew cask install --appdir="/Applications" appcleaner
 
-#Quick Look Plugins
+# Quick Look Plugins
 brew cask install qlcolorcode
 brew cask install qlstephen
 brew cask install qlmarkdown
@@ -151,18 +151,15 @@ brew cask install betterzipql
 brew cask install webpquicklook
 brew cask install suspicious-package
 
-#Remove comment to install LaTeX distribution MacTeX
-#brew cask install --appdir="/Applications" mactex
+# Remove comment to install LaTeX distribution MacTeX
+# brew cask install --appdir="/Applications" mactex
 
 # Link cask apps to Alfred
-#brew cask alfred link
+# brew cask alfred link
 
 # Install Docker, which requires virtualbox
-#brew install docker
-#brew install boot2docker
-
-# Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+# brew install docker
+# brew install boot2docker
 
 # Remove outdated versions from the cellar.
 brew cleanup
