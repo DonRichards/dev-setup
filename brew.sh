@@ -120,6 +120,9 @@ brew cask install --appdir="~/Applications" xquartz
 # Development tool casks
 #brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" atom
+
+apm install sync-settings
+
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
 #brew cask install --appdir="/Applications" heroku-toolbelt
