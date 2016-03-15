@@ -125,6 +125,7 @@ apm install sync-settings
 
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" vagrant-manager
 #brew cask install --appdir="/Applications" heroku-toolbelt
 brew cask install --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" haxchat
