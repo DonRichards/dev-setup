@@ -34,6 +34,13 @@ npm install -g node-gyp
 
 gem install -n /usr/local/bin sass scss_lint hologram susy bundler jekyll
 
+# Mongodb
+sudo mkdir /data/db
+sudo chmown -R $USER /data/db
+brew install mongodb
+brew tap homebrew/services
+brew services start mongodb 
+
 # House Keeping
 rbenv rehash
 npm update -g npm
