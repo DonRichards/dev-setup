@@ -31,6 +31,7 @@ npm install -g jshint
 npm install -g less
 npm install -g yo
 npm install -g node-gyp
+npm install -g nodemon
 
 gem install -n /usr/local/bin sass scss_lint hologram susy bundler jekyll
 
