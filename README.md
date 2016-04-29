@@ -2,7 +2,7 @@ dev-setup
 ============
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/repo-header.gif">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/repo-header.gif">
 </p>
 
 ## Motivation
@@ -39,7 +39,7 @@ If you're interested in automation, `dev-setup` provides a customizable [setup s
 This repo takes a more **light-weight** approach to automation using a combination of **Homebrew, Homebrew Cask, and shell scripts** to do basic system setup.  It also provides **easy-to understand instructions** for installation, configuration, and usage for each developer app or tool.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/iterm2.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/iterm2.png">
 </p>
 
 ### Sections Summary
@@ -217,7 +217,7 @@ I encourage you to read through Section 1 so you have a better idea of what each
 ### bootstrap.sh script
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/commands.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/commands.png">
   <br/>
 </p>
 
@@ -283,7 +283,7 @@ You could also use `~/.extra` to override settings, functions, and aliases from 
 ### osxprep.sh script
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/xcode.jpg">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/xcode.jpg">
   <br/>
 </p>
 
@@ -319,7 +319,7 @@ Once you reach the downloads page, search for "command line tools", and download
 ### brew.sh script
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/homebrew2.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/homebrew2.png">
   <br/>
 </p>
 
@@ -338,7 +338,7 @@ The `brew.sh` script takes awhile to complete, as some formulae need to be insta
 ### osx.sh script
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/osx.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/osx.png">
   <br/>
 </p>
 
@@ -355,7 +355,7 @@ Run the `osx.sh` script:
 ### pydata.sh script
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/pydata.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/pydata.png">
   <br/>
 </p>
 
@@ -382,7 +382,7 @@ Then start working with the installed packages, for example:
 ### aws.sh script
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/aws.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/aws.png">
   <br/>
 </p>
 
@@ -395,7 +395,7 @@ To set up a development environment to work with Spark, Hadoop MapReduce, and Am
 ### datastores.sh script
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/datastores.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/datastores.png">
   <br/>
 </p>
 
@@ -408,7 +408,7 @@ To set up common data stores, run the `datastores.sh` script:
 ### web.sh script
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/webdev.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/webdev.png">
   <br/>
 </p>
 
@@ -421,7 +421,7 @@ To set up a JavaScript web development environment, Run the `web.sh` script:
 ### android.sh script
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/android.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/android.png">
   <br/>
 </p>
 
@@ -436,7 +436,7 @@ To set up an Android development environment, run the `android.sh` script:
 ### Sublime Text
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/sublime.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/sublime.png">
   <br/>
 </p>
 
@@ -499,7 +499,7 @@ While inside the `Packages` directory, clone the theme repository using the comm
 ### Atom
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/atom.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/atom.png">
   <br/>
 </p>
 
@@ -518,7 +518,7 @@ Atom has a great package manager that allows you to easily install both core and
 ### Terminal Customization
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/terminal.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/terminal.png">
   <br/>
 </p>
 
@@ -531,7 +531,7 @@ The [bootstrap.sh script](#bootstrapsh-script) and [osx.sh script](#osxsh-script
 ### iTerm2
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/iterm2.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/iterm2.png">
   <br/>
 </p>
 
@@ -586,7 +586,7 @@ Now we have a terminal we can work with!
 ### Vim
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/vim.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/vim.png">
   <br/>
 </p>
 
@@ -603,7 +603,7 @@ The [bootstrap.sh script](#bootstrapsh-script) contains Vim customizations.
 ### VirtualBox
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/virtualbox.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/virtualbox.png">
   <br/>
 </p>
 
@@ -622,7 +622,7 @@ If you prefer to install it separately, you can download it [here](https://www.v
 ### Vagrant
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/vagrant.jpeg">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/vagrant.jpeg">
   <br/>
 </p>
 
@@ -641,7 +641,7 @@ If you prefer to install it separately, you can download it [here](https://www.v
 ### Docker
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/docker.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/docker.png">
   <br/>
 </p>
 
@@ -674,7 +674,7 @@ Set the `DOCKER_HOST` environment variable and fill in IP and PORT based on the 
 ### Git
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/git.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/git.png">
   <br/>
 </p>
 
@@ -715,7 +715,7 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
 ### Homebrew
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/homebrew.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/homebrew.png">
   <br/>
 </p>
 
@@ -764,7 +764,7 @@ To see what you have installed (with their version numbers):
 ### Ruby and rbenv
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/ruby.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/ruby.png">
   <br/>
 </p>
 
@@ -812,7 +812,7 @@ $ rbenv global 2.0.0
 ### Python
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/python.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/python.png">
   <br/>
 </p>
 
@@ -919,7 +919,7 @@ Deactivate the currently active virtual environment. Note that workonwill automa
 ### Anaconda
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/anaconda.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/anaconda.png">
   <br/>
 </p>
 
@@ -963,7 +963,7 @@ If you'd like to see some examples here are a couple of my repos that use IPytho
 ### NumPy
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/numpy.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/numpy.png">
   <br/>
 </p>
 
@@ -982,7 +982,7 @@ Refer to the following [Numpy IPython Notebook](https://github.com/donrichards/d
 ### Pandas
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/pandas.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/pandas.png">
   <br/>
 </p>
 
@@ -1001,7 +1001,7 @@ Refer to the following [pandas IPython Notebooks](https://github.com/donrichards
 ### Matplotlib
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/matplotlib.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/matplotlib.png">
   <br/>
 </p>
 
@@ -1020,7 +1020,7 @@ Refer to the following [matplotlib IPython Notebooks](https://github.com/donrich
 ### Seaborn
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/seaborn.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/seaborn.png">
   <br/>
 </p>
 
@@ -1039,7 +1039,7 @@ Refer to the following [matplotlib with Seaborn IPython Notebooks](https://githu
 ### Scikit-learn
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/scikitlearn.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/scikitlearn.png">
   <br/>
 </p>
 
@@ -1058,7 +1058,7 @@ Refer to the following [scikit-learn IPython Notebooks](https://github.com/donri
 ### SciPy
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/scipy.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/scipy.png">
   <br/>
 </p>
 
@@ -1077,7 +1077,7 @@ Refer to the following [SciPy IPython Notebooks](https://github.com/donrichards/
 ### Flask
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/flask.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/flask.png">
   <br/>
 </p>
 
@@ -1096,7 +1096,7 @@ The [pydata.sh script](#pydatash-script) installs SciPy.  If you prefer to insta
 ### Bokeh
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/bokeh.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/bokeh.png">
   <br/>
 </p>
 
@@ -1117,7 +1117,7 @@ The [pydata.sh script](#pydatash-script) installs Bokeh.  If you prefer to insta
 ### Spark
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/spark.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/spark.png">
   <br/>
 </p>
 
@@ -1150,7 +1150,7 @@ Spark is also supported on AWS Elastic MapReduce as described [here](https://aws
 ### MapReduce
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/mrjob.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/mrjob.png">
   <br/>
 </p>
 
@@ -1218,7 +1218,7 @@ To create an AWS account, open http://aws.amazon.com/, and then click Sign Up.  
 ### AWS CLI
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/aws_cli.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/aws_cli.png">
   <br/>
 </p>
 
@@ -1307,7 +1307,7 @@ Refer to the [repo link](https://github.com/donrichards/saws).
 ### Boto
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/boto.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/boto.png">
   <br/>
 </p>
 
@@ -1328,7 +1328,7 @@ Refer to the following [Boto IPython Notebook](https://github.com/donrichards/da
 ### S3cmd
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/s3cmd.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/s3cmd.png">
   <br/>
 </p>
 
@@ -1371,7 +1371,7 @@ Refer to the following [s3cmd IPython Notebook](https://github.com/donrichards/d
 ### S3DistCp
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/s3distcp.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/s3distcp.png">
   <br/>
 </p>
 
@@ -1388,7 +1388,7 @@ Refer to the following [S3DistCp IPython Notebook](https://github.com/donrichard
 ### S3-parallel-put
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/s3-parallel-put.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/s3-parallel-put.png">
   <br/>
 </p>
 
@@ -1405,7 +1405,7 @@ Refer to the following [s3-parallel-put IPython Notebook](https://github.com/don
 ### Redshift
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/aws_redshift.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/aws_redshift.png">
   <br/>
 </p>
 
@@ -1422,7 +1422,7 @@ Refer to the following [Redshift IPython Notebook](https://github.com/donrichard
 ### Kinesis
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/aws_kinesis.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/aws_kinesis.png">
   <br/>
 </p>
 
@@ -1439,7 +1439,7 @@ Refer to the following [Kinesis IPython Notebook](https://github.com/donrichards
 ### Lambda
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/aws_lambda.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/aws_lambda.png">
   <br/>
 </p>
 
@@ -1456,7 +1456,7 @@ Refer to the following [Lambda IPython Notebook](https://github.com/donrichards/
 ### AWS Machine Learning
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/aws_ml.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/aws_ml.png">
   <br/>
 </p>
 
@@ -1473,7 +1473,7 @@ Follow these [instructions](http://docs.aws.amazon.com/machine-learning/latest/d
 ### Heroku
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/heroku.jpg">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/heroku.jpg">
   <br/>
 </p>
 
@@ -1523,7 +1523,7 @@ The [Heroku Dev Center](https://devcenter.heroku.com/) is full of great resource
 ### MySQL
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/mysql.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/mysql.png">
   <br/>
 </p>
 
@@ -1565,7 +1565,7 @@ To connect with the command-line client, run:
 ### MySQL Workbench
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/mysql_workbench.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/mysql_workbench.png">
   <br/>
 </p>
 
@@ -1583,7 +1583,7 @@ You can also find the MySQL Workbench download [here](http://www.mysql.com/downl
 ### MongoDB
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/mongodb.jpeg">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/mongodb.jpeg">
   <br/>
 </p>
 
@@ -1611,7 +1611,7 @@ I'll let you refer to MongoDB's [Getting Started](http://docs.mongodb.org/manual
 ### Redis
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/redis.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/redis.png">
   <br/>
 </p>
 
@@ -1643,7 +1643,7 @@ I'll let you refer to Redis' [documentation](http://redis.io/documentation) or o
 ### Elasticsearch
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/elasticsearch.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/elasticsearch.png">
   <br/>
 </p>
 
@@ -1694,7 +1694,7 @@ Elasticsearch's [documentation](http://www.elasticsearch.org/guide/) is more of 
 ### Node.js
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/nodejs.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/nodejs.png">
   <br/>
 </p>
 
@@ -1759,7 +1759,7 @@ To uninstall a package:
 ### JSHint
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/jshint.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/jshint.png">
   <br/>
 </p>
 
@@ -1778,7 +1778,7 @@ Follow additional instructions on the [JSHint Package Manager page](https://subl
 ### LESS
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/less.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/less.png">
   <br/>
 </p>
 
@@ -1821,7 +1821,7 @@ Read more about LESS on their page here: http://lesscss.org/
 ### Java
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/java.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/java.png">
   <br/>
 </p>
 
@@ -1838,7 +1838,7 @@ If you prefer to install it separately, you can download the JDK [here](http://w
 ### Android SDK
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/androidsdk.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/androidsdk.png">
   <br/>
 </p>
 
@@ -1849,7 +1849,7 @@ If you prefer to install it separately, you can download it [here](https://devel
 ### Android Studio
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/androidstudio.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/androidstudio.png">
   <br/>
 </p>
 
@@ -1864,7 +1864,7 @@ If you prefer to install it separately, you can download it [here](https://devel
 ### IntelliJ IDEA
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/donrichards/dev-setup-resources/master/res/intellij.png">
+  <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/intellij.png">
   <br/>
 </p>
 
