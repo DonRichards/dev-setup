@@ -567,9 +567,15 @@ Not a lot of colors yet. We need to tweak a little bit our Unix user's profile f
 We'll come back to the details of that later, but for now, just download the files [.bash_profile](https://raw.githubusercontent.com/donrichards/dev-setup/master/.bash_profile), [.bash_prompt](https://raw.githubusercontent.com/donrichards/dev-setup/master/.bash_prompt), [.aliases](https://raw.githubusercontent.com/donrichards/dev-setup/master/.aliases) attached to this document into your home directory (`.bash_profile` is the one that gets loaded, I've set it up to call the others):
 
     $ cd ~
+<<<<<<< HEAD
     $ curl -O https://raw.githubusercontent.com/donrichards/dev-setup/master/.bash_profile
     $ curl -O https://raw.githubusercontent.com/donrichards/dev-setup/master/.bash_prompt
     $ curl -O https://raw.githubusercontent.com/donrichards/mac-dev-setup/master/.aliases
+=======
+    $ curl -O https://raw.githubusercontent.com/donnemartin/dev-setup/master/.bash_profile
+    $ curl -O https://raw.githubusercontent.com/donnemartin/dev-setup/master/.bash_prompt
+    $ curl -O https://raw.githubusercontent.com/donnemartin/dev-setup/master/.aliases
+>>>>>>> donnemartin/master
 
 With that, open a new terminal tab (Cmd+T) and see the change! Try the list commands: `ls`, `ls -lh` (aliased to `ll`), `ls -lha` (aliased to `la`).
 
