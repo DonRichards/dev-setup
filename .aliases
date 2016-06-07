@@ -140,5 +140,8 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
+# Locate Updatedb command
+sudo ln -s /usr/libexec/locate.updatedb /usr/local/bin/updatedb
+
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
