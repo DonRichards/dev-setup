@@ -21,6 +21,7 @@ sudo chown -R `whoami` /usr/local
 # Make sure we’re using the latest Homebrew.
 brew update
 brew install node
+brew cask install haskell-platform
 
 # Remove outdated versions from the cellar.
 brew cleanup
