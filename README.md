@@ -1,6 +1,8 @@
 dev-setup
 ============
 
+>  wget -O dev-setup.zip https://github.com/DonRichards/dev-setup/tarball/master && tar -xvf dev-setup.zip
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/donrichards/dev-setup/master/images/repo-header.gif">
 </p>
