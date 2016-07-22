@@ -41,7 +41,19 @@ sudo mkdir /data/db
 sudo chmown -R $USER /data/db
 brew install mongodb
 brew tap homebrew/services
-brew services start mongodb 
+brew services start mongodb
+
+# Daily stuff
+curl -L https://raw.githubusercontent.com/kciter/daily/master/installer.sh | sudo sh
+if [ -d "/usr/local/daily" ]
+then
+    echo "Directory /usr/local/daily exists."
+    cp daily /usr/local/daily/command.txt
+else
+    echo "Making empty directory for Daily..."
+    mkdir /usr/local/daily
+    cp daily /usr/local/daily/command.txt
+fi
 
 # House Keeping
 rbenv rehash

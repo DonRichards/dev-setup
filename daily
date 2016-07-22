@@ -1,0 +1,22 @@
+sudo softwareupdate -i -a
+brew update
+brew upgrade --all
+brew cleanup
+npm install npm -g
+npm update -g
+sudo gem update --system
+sudo gem update
+pip install --upgrade pip
+dscacheutil -flushcache && killall -HUP mDNSResponder
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder
+cd /
+find . -type f -name '*.DS_Store' -ls -delete
+cd ~/Desktop/sandbox/CLAW/install
+vagrant halt
+vagrant box update
+cd ..
+git fetch
+cd ~/Desktop/sandbox/islandora_vagrant
+vagrant halt
+vagrant box update
+git fetch
