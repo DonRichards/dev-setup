@@ -76,6 +76,7 @@ brew install woff2
 
 # Install other useful binaries.
 brew install ack
+brew install aria2
 brew install dark-mode
 brew install exiv2
 brew install git
