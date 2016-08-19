@@ -145,3 +145,10 @@ sudo ln -s /usr/libexec/locate.updatedb /usr/local/bin/updatedb
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# mkdir ___ && cd $_
+mkcdir ()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
