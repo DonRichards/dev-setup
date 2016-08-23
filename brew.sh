@@ -171,3 +171,6 @@ brew cask install dockertoolbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Bundler Install
+sudo gem install bundler -n /usr/local/bin
