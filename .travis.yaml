@@ -1,0 +1,24 @@
+sudo: required
+dist: trusty
+language: bash
+addons:
+  apt:
+    sources:
+    - debian-sid
+    packages:
+    - shellcheck
+before_install:
+- echo "Before Install scripts Start"
+install:
+- echo "Install scripts Starting"
+script:
+- echo "shell commands Starting"
+- bash -c 'shopt -s globstar; shellcheck **/*.{sh,bash}'
+after_success:
+- echo "PASSED!"
+after_failure:
+- echo "FAILURE IS ALWAYS AN OPTION"
+after_script:
+- echo "more shell commands here"
+notifications:
+  email: false
