@@ -1,7 +1,12 @@
 sudo: required
 dist: trusty
 language: bash
-
+addons:
+  apt:
+    sources:
+    - debian-sid
+    packages:
+    - shellcheck
 before_install:
 - echo "Before Install scripts Start"
 install:
