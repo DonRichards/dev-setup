@@ -10,7 +10,7 @@ addons:
 before_install:
 - echo "Before Install scripts Start"
 install:
-- echo "Install scripts Starting"
+- echo "Install scripts Starting."
 script:
 - echo "shell commands Starting"
 - bash -c 'shopt -s globstar; shellcheck **/*.{sh,bash}'
