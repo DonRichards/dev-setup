@@ -46,3 +46,9 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+export EDITOR=nano
+
+eval "$(thefuck --alias)"
+# You can use whatever you want as an alias, like for Mondays:
+eval "$(thefuck --alias FUCK)"
