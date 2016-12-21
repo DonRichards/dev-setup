@@ -174,3 +174,6 @@ brew cleanup
 
 # Bundler Install
 sudo gem install bundler -n /usr/local/bin
+
+# https://github.com/nvbn/thefuck
+brew install thefuck
