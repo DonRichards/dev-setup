@@ -177,3 +177,5 @@ sudo gem install bundler -n /usr/local/bin
 
 # https://github.com/nvbn/thefuck
 brew install thefuck
+
+brew install mackup
