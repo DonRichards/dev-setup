@@ -21,16 +21,16 @@ sudo chown -R `whoami` /usr/local
 # Make sure we’re using the latest Homebrew.
 brew update
 brew install node
-brew cask install haskell-platform
+# brew cask install haskell-platform
 
 # Remove outdated versions from the cellar.
 brew cleanup
 
-npm install -g coffee-script
+# npm install -g coffee-script
 npm install -g grunt-cli
 npm install -g jshint
 npm install -g less
-npm install -g yo
+# npm install -g yo
 npm install -g node-gyp
 npm install -g nodemon
 
