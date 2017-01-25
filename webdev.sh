@@ -55,6 +55,14 @@ else
     cp daily /usr/local/daily/command.txt
 fi
 
+# Jenkins Setup
+brew install jenkins
+brew cask install java
+ln -sfv /usr/local/opt/jenkins/*.plist ~/Library/LaunchAgents
+sudo defaults write /Library/Preferences/org.jenkins-ci httpPort 7070
+sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
+sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+
 # House Keeping
 rbenv rehash
 npm update -g npm
