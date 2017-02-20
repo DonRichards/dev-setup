@@ -152,3 +152,5 @@ mkcdir ()
     mkdir -p -- "$1" &&
       cd -P -- "$1"
 }
+# Kills all running virtual machines and restarts vagrant
+alias refreshall="vagrant destroy -f && vagrant box update && vboxmanage list runningvms | sed -r 's/.*\{(.*)\}/\1/' | xargs -L1 -I {} VBoxManage controlvm {} poweroff && vboxmanage list vms | sed -r 's/.*\{(.*)\}/\1/' | xargs -L1 -I {} VBoxManage unregistervm {} --delete && vagrant up"
