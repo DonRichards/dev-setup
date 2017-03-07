@@ -68,3 +68,6 @@ rbenv rehash
 npm update -g npm
 gem update --system
 update
+
+# https://osxfuse.github.io/ File System Integration for OSX over SSH
+brew install Caskroom/cask/osxfuse
