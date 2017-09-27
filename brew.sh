@@ -169,13 +169,18 @@ brew cask install suspicious-package
 brew cask install docker
 brew cask install dockertoolbox
 
-# Remove outdated versions from the cellar.
-brew cleanup
-
 # Bundler Install
 sudo gem install bundler -n /usr/local/bin
 
 # https://github.com/nvbn/thefuck
 brew install thefuck
 
+# https://github.com/lra/mackup
 brew install mackup
+
+# https://github.com/hholtmann/smcFanControl
+brew cask install smcfancontrol
+
+# Remove outdated versions from the cellar.
+brew cleanup
+
