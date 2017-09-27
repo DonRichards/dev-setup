@@ -134,12 +134,13 @@ brew cask install --appdir="/Applications" haxchat
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" google-drive
 brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" skype
+# brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
 #brew cask install --appdir="/Applications" evernote
-brew cask install --appdir="/Applications" bittorrent-sync
+brew cask install --appdir="/Applications" resilio-sync
 brew cask install --appdir="/Applications" github-desktop
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" hipchat
