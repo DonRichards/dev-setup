@@ -128,9 +128,9 @@ brew cask install --appdir="/Applications" virtualbox
 brew cask install virtualbox-extension-pack
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" vagrant-manager
-brew cask install --appdir="/Applications" heroku-toolbelt
-brew cask install --appdir="/Applications" macdown
-brew cask install --appdir="/Applications" haxchat
+# brew cask install --appdir="/Applications" heroku-toolbelt
+# brew cask install --appdir="/Applications" macdown
+# brew cask install --appdir="/Applications" haxchat
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
@@ -142,10 +142,11 @@ brew cask install --appdir="/Applications" dropbox
 #brew cask install --appdir="/Applications" evernote
 brew cask install --appdir="/Applications" resilio-sync
 brew cask install --appdir="/Applications" github-desktop
+brew cask install --appdir="/Applications" gitkraken
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" hipchat
 brew cask install --appdir="/Applications" spectacle
-brew cask install --appdir="/Applications" cheatsheet
+# brew cask install --appdir="/Applications" cheatsheet
 brew cask install --appdir="/Applications" appcleaner
 
 # Quick Look Plugins
