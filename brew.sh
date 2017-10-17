@@ -83,6 +83,7 @@ brew install git
 brew install git-lfs
 brew install git-flow
 brew install git-extras
+brew install hub
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
@@ -111,6 +112,7 @@ heroku update
 
 # Install Cask
 brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
 
 # Core casks
 #brew cask install --appdir="/Applications" alfred
@@ -119,7 +121,7 @@ brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
 
 # Development tool casks
-#brew cask install --appdir="/Applications" sublime-text3
+#brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" atom
 
 apm install sync-settings
