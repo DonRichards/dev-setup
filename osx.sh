@@ -860,3 +860,6 @@ echo "Done. Note that some of these changes require a logout/restart of your OS 
 
 # Allow apps to be installed from anywhere
 sudo spctl --master-disable
+
+# Setting the RVM to a specific directory
+echo "gem: --user-install -n~/bin" >> ~/.gemrc
