@@ -185,6 +185,9 @@ brew install mackup
 # https://github.com/hholtmann/smcFanControl
 brew cask install smcfancontrol
 
+# https://github.com/buo/homebrew-cask-upgrade
+brew tap buo/cask-upgrade
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
