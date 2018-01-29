@@ -1,5 +1,3 @@
-mkdir ~/Desktop/sandbox
-
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -48,7 +46,7 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cask list | xargs brew cask install --force; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; brew cu -facy'
+alias update='sudo softwareupdate -i -a && brew update && brew upgrade && brew cleanup && npm install npm -g && npm update -g && sudo gem update --system && sudo gem update && brew cu -facy'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -141,7 +139,7 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 # Locate Updatedb command
-sudo ln -s /usr/libexec/locate.updatedb /usr/local/bin/updatedb
+# sudo ln -s /usr/libexec/locate.updatedb /usr/local/bin/updatedb
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
@@ -152,5 +150,13 @@ mkcdir ()
     mkdir -p -- "$1" &&
       cd -P -- "$1"
 }
-# Kills all running virtual machines and restarts vagrant
+
+# alias gc="git clone"
+gc ()
+{
+  git clone "$1" && cd $(basename $_ .git)
+}
+
+# Vagrant
+alias refresh="git pull && vagrant destroy -f && vagrant box update && vagrant up"
 alias refreshall="vagrant destroy -f && vagrant box update && vboxmanage list runningvms | sed -r 's/.*\{(.*)\}/\1/' | xargs -L1 -I {} VBoxManage controlvm {} poweroff && vboxmanage list vms | sed -r 's/.*\{(.*)\}/\1/' | xargs -L1 -I {} VBoxManage unregistervm {} --delete && vagrant up"
