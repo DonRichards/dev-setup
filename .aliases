@@ -46,7 +46,7 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a && brew update && brew upgrade && brew cleanup && npm install npm -g && npm update -g && sudo gem update --system && sudo gem update && brew cu -facy'
+alias update='sudo softwareupdate -i -a && vagrant plugin update * && brew update && brew upgrade && brew cleanup && npm install npm -g && npm update -g && sudo gem update --system && sudo gem update && brew cu -facy'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -148,8 +148,11 @@ alias reload="exec $SHELL -l"
 mkcdir ()
 {
     mkdir -p -- "$1" &&
-      cd -P -- "$1"
+    cd -P -- "$1"
 }
+alias refresh="git pull && vagrant destroy -f && vagrant box update && vagrant up"
+
+alias refreshall="vagrant destroy -f && vagrant box update && vboxmanage list runningvms | sed -r 's/.*\{(.*)\}/\1/' | xargs -L1 -I {} VBoxManage controlvm {} poweroff && vboxmanage list vms | sed -r 's/.*\{(.*)\}/\1/' | xargs -L1 -I {} VBoxManage unregistervm {} --delete && vagrant up"
 
 # alias gc="git clone"
 gc ()
@@ -157,6 +160,8 @@ gc ()
   git clone "$1" && cd $(basename $_ .git)
 }
 
-# Vagrant
-alias refresh="git pull && vagrant destroy -f && vagrant box update && vagrant up"
-alias refreshall="vagrant destroy -f && vagrant box update && vboxmanage list runningvms | sed -r 's/.*\{(.*)\}/\1/' | xargs -L1 -I {} VBoxManage controlvm {} poweroff && vboxmanage list vms | sed -r 's/.*\{(.*)\}/\1/' | xargs -L1 -I {} VBoxManage unregistervm {} --delete && vagrant up"
+download ()
+{
+  [[ "$1" ]] || { echo "Error: Missing URL" >&2; return 1; }
+  youtube-dl -f bestaudio "$1" -o "~/Music/unprocessed/%(title)s" --no-mtime --exec "ffmpeg -i {} -codec:a libmp3lame -qscale:a 0 {}.mp3 && rm {}" && beet import ~/Music/unprocessed
+}
