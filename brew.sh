@@ -191,6 +191,9 @@ brew tap buo/cask-upgrade
 # https://github.com/julienXX/terminal-notifier
 brew install terminal-notifier
 
+# https://github.com/mas-cli/mas
+brew install mas
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
