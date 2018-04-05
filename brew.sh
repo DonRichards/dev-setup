@@ -177,16 +177,19 @@ brew cask install dockertoolbox
 sudo gem install bundler -n /usr/local/bin
 
 # https://github.com/nvbn/thefuck
-brew install thefuck
+# brew install thefuck
 
 # https://github.com/lra/mackup
-brew install mackup
+# brew install mackup
 
 # https://github.com/hholtmann/smcFanControl
 brew cask install smcfancontrol
 
 # https://github.com/buo/homebrew-cask-upgrade
 brew tap buo/cask-upgrade
+
+# https://github.com/julienXX/terminal-notifier
+brew install terminal-notifier
 
 # Remove outdated versions from the cellar.
 brew cleanup
