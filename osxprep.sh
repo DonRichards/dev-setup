@@ -22,8 +22,8 @@ xcode-select --install
 echo "------------------------------"
 echo "Seirra Broke Keyboard repeat fix."
 # This may speed the repeat feature up
-defaults read NSGlobalDomain ApplePressAndHoldEnabled
-defaults read NSGlobalDomain KeyRepeat
-defaults read NSGlobalDomain InitialKeyRepeat
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+#defaults read NSGlobalDomain ApplePressAndHoldEnabled
+#defaults read NSGlobalDomain KeyRepeat
+#defaults read NSGlobalDomain InitialKeyRepeat
+#defaults write NSGlobalDomain KeyRepeat -int 1
+#defaults write NSGlobalDomain InitialKeyRepeat -int 10
