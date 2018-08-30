@@ -174,3 +174,5 @@
   	signingkey = 1234567890
 [gpg]
   	program = gpg2
+[commit]
+  	gpgsign = true
