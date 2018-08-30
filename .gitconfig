@@ -59,7 +59,7 @@
 
     # List contributors with number of commits
     contributors = shortlog --summary --numbered
-    
+
     # Merge GitHub pull request on top of the `master` branch
     pr-clean = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
     pr = "!f() { \
@@ -167,3 +167,10 @@
 [url "git://gist.github.com/"]
 
     insteadOf = "gist:"
+
+[user]
+  	email = DonRichards@DonRichards.email
+  	name = Don Richards
+  	signingkey = 1234567890qwerty
+[gpg]
+  	program = gpg2
