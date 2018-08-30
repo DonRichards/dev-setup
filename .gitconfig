@@ -171,6 +171,6 @@
 [user]
   	email = DonRichards@DonRichards.email
   	name = Don Richards
-  	signingkey = 1234567890qwerty
+  	signingkey = 1234567890
 [gpg]
   	program = gpg2
