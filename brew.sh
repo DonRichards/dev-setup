@@ -139,14 +139,14 @@ brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" google-drive-file-stream
 brew cask install --appdir="/Applications" firefox
 # brew cask install --appdir="/Applications" skype
-#brew cask install --appdir="/Applications" slack
+brew cask install --appdir="/Applications" slack
 #brew cask install --appdir="/Applications" dropbox
 #brew cask install --appdir="/Applications" evernote
 brew cask install --appdir="/Applications" resilio-sync
 brew cask install --appdir="/Applications" github-desktop
 brew cask install --appdir="/Applications" gitkraken
 brew cask install --appdir="/Applications" vlc
-brew cask install --appdir="/Applications" hipchat
+# brew cask install --appdir="/Applications" hipchat
 brew cask install --appdir="/Applications" spectacle
 # brew cask install --appdir="/Applications" cheatsheet
 brew cask install --appdir="/Applications" appcleaner
@@ -188,6 +188,9 @@ brew cask install smcfancontrol
 # https://github.com/buo/homebrew-cask-upgrade
 brew tap buo/cask-upgrade
 
+# Install ffmpeg with everything enabled
+brew install ffmpeg $(brew options ffmpeg | grep -vE '\s' | grep -- '--with-' | tr '\n' ' ')
+
 # https://github.com/julienXX/terminal-notifier
 brew install terminal-notifier
 
@@ -196,4 +199,3 @@ brew install mas
 
 # Remove outdated versions from the cellar.
 brew cleanup
-
