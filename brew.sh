@@ -197,5 +197,9 @@ brew install terminal-notifier
 # https://github.com/mas-cli/mas
 brew install mas
 
+# For Youtube_download
+pip install beets
+
 # Remove outdated versions from the cellar.
 brew cleanup
+
