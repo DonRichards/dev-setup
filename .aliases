@@ -165,3 +165,10 @@ download ()
   [[ "$1" ]] || { echo "Error: Missing URL" >&2; return 1; }
   youtube-dl -f bestaudio "$1" -o "~/Music/unprocessed/%(title)s" --no-mtime --exec "ffmpeg -i {} -codec:a libmp3lame -qscale:a 0 {}.mp3 && rm {}" && beet import ~/Music/unprocessed
 }
+
+# Pass any command to loop every 30 seconds. Great for monitoring a file.
+waiting ()
+{
+  [[ "$1" ]] || { echo "Error: Missing a function" >&2; return 1; }
+  while true; do clear && "$@" && date; sleep 30; done;
+}
